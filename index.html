@@ -56,7 +56,7 @@
           <li><a href="#purposes">Mục đích và ý nghĩa</a></li>
         
           <li><a href="#gallery">Gallery</a></li>
-          <li><a href="#sponsors">Đơn vị đồng hành</a></li>
+          <!-- <li><a href="#sponsors">Đơn vị đồng hành</a></li> -->
           <!-- <li class="buy-tickets"><a href="#order-tickets">Đặt vé</a></li> -->
         </ul>
       </nav><!-- #nav-menu-container -->
@@ -69,7 +69,7 @@
   <section id="intro">
     <div class="intro-logos">
       <img src="img/logo/logo van hoa transparent.png" alt="Logo 1">
-      <img src="img/logo/logo fuv transparent.png" alt="Logo 2">
+      <img src="img/logo/logo vsc white.png" alt="Logo 2">
     </div>
     <div class="intro-container wow fadeIn">
       <h1 class="mb-4 pb-0">Chuỗi hoạt động tưởng niệm<br><span>100 năm ngày mất của chí sĩ Phan Châu Trinh</span> </h1>
@@ -311,72 +311,93 @@
     </section>
 
     <!--==========================
-      Sponsors Section
+      Order Section
     ============================-->
-    <section id="sponsors" class="section-with-bg wow fadeInUp">
-
+    <section id="order-tickets" class="section-with-bg wow fadeInUp  py-5">
       <div class="container">
+
         <div class="section-header">
-          <h2>Đơn vị đồng tổ chức, tài trợ, đồng hành</h2>
+          <h2>Đặt vé</h2>
+          <p>Đặt vé trước để tham dự chuỗi hoạt động tưởng niệm 100 năm ngày mất của chí sĩ Phan Châu Trinh</p>
         </div>
 
-        <div class="row no-gutters sponsors-wrap clearfix justify-content-center">
+        <div class="row justify-content-center">
+          <div class="col-md-8 col-lg-6 d-flex justify-content-center">
+            <div class="card mb-5 mb-lg-0" style="width: 100%; max-width: 500px; padding: 30px;">
+              <div class="card-body text-center">
+                <h5 class="card-title text-muted text-uppercase">Vé chuỗi hoạt động tưởng niệm</h5>
+                <!-- <h6 class="card-price">Vô giá</h6> -->
+                <hr>
+                <ul class="fa-ul text-left">
+                  <li><span class="fa-li"><i class="fa fa-check"></i></span> Triển lãm</li>
+                  <li><span class="fa-li"><i class="fa fa-check"></i></span> Hội thảo</li>
+                  <li><span class="fa-li"><i class="fa fa-check"></i></span>Chương trình biểu diễn nghệ thuật</li>
+                </ul>
+                <hr>
+                <div class="text-center">
+                  <button type="button" class="btn btn-lg" data-toggle="modal" data-target="#buy-ticket-modal" data-ticket-type="standard-access" style="background-color: #f5bc23; color: white; border-radius: 50px; padding: 5px 20px;">
+                    Đặt vé ngay
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>   
 
-          <div class="col-lg-3 col-md-4 col-xs-6">
-             <h5>Đồng tổ chức</h5> 
-            <div class="sponsor-logo">
-              <img src="img/sponsors/tcs_foundation_logo_1.png" class="img-fluid" alt="">
+      <!-- Modal Order Form -->
+      <div id="buy-ticket-modal" class="modal fade">
+        <div class="modal-dialog modal-lg" role="document">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h4 class="modal-title">Đặt vé</h4>
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+              </button>
             </div>
-          </div>
-          
-          <div class="col-lg-3 col-md-4 col-xs-6">
-          <h5>Nhà tài trợ kim cương</h5>
-            <div class="sponsor-logo">
-              <img src="img/sponsors/Logo ngang.png" class="img-fluid" alt="" href="https://ctgroupvietnam.com/">
+            <div class="modal-body text-center" style="padding: 20px;">
+              <iframe src="https://forms.office.com/r/z20fgpfDVz" 
+                      width="100%" height="400px" frameborder="0" 
+                      style="border-radius: 8px; box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);">
+              </iframe>
             </div>
-          </div>
-        
-          <div class="col-lg-3 col-md-4 col-xs-6">
-           <h5>Nhà đồng hành</h5> 
-            <div class="sponsor-logo">
-              <img src="img/sponsors/sponsors_in_kind_revised.png" class="img-fluid" alt="">
-            </div>
-          </div>
-        </div>
+          </div><!-- /.modal-content -->
+        </div><!-- /.modal-dialog -->
+      </div><!-- /.modal -->
 
       </div>
-
     </section>
-
 
   <!--==========================
     Footer
   ============================-->
   <footer id="footer">
     <div class="footer-top">
-      <div class="container">
-        <div class="row">
-
-          <div class="col-lg-3 col-md-6 footer-info">
-            <img src="img/logo/VSC log0 - VIE gold-01.png" alt="TheEvenet">
-          </div>
-
+      <div class="container text-center">
+        <h4 class="footer-title">Liên lạc với chúng tôi</h4>
+        <div class="row justify-content-center text-center">
           <div class="col-lg-3 col-md-6 footer-contact">
-            <h4>Liên lạc với chúng tôi</h4>
+            <img src="img/logo/logo vsc yellow.png" alt="TheEvenet" class="img-fluid mb-2">
             <p>
-             Trung tâm Nghiên cứu Việt Nam <br>
-              Đại học Fulbright Việt Nam<br>
-              <strong>Phone:</strong>+84 28 7303 2255<br>
+              Trung tâm Nghiên cứu Việt Nam <br>
+              <strong>Phone:</strong> (+84) 28 7303 2255<br>
               <strong>Email:</strong> vsc@fulbright.edu.vn<br>
             </p>
 
-            <div class="social-links">
-              <a href="https://www.facebook.com/trungtamnghiencuuvietnam" class="facebook"><i class="fa fa-facebook"></i></a>
-
-            </div>
-
+            <!-- <div class="social-links">
+              <a href="https://www.facebook.com/trungtamnghiencuuvietnam" class="facebook">
+                <i class="fa fa-facebook"></i>
+              </a>
+            </div> -->
           </div>
 
+          <div class="col-lg-3 col-md-6 footer-contact">
+            <img src="img/logo/logo van hoa blue.webp" alt="TheEvenet" class="img-fluid mb-2">
+            <p>
+              Đại học Văn hóa Thành phố Hồ Chí Minh<br>
+              <strong>Phone:</strong> (+84) 28 3899 2901<br>
+              <strong>Email:</strong> dhvh@hcmuc.edu.vn<br>
+            </p>
+          </div>
         </div>
       </div>
     </div>
