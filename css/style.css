@@ -401,7 +401,7 @@ h6 {
   padding-top: 18px;
   bottom: 0;
   z-index: 998;
-  background: #5e7254;
+  background: #092a60;
   left: -260px;
   width: 260px;
   overflow-y: auto;
@@ -462,7 +462,7 @@ h6 {
   top: 0;
   left: 0;
   position: fixed;
-  background: #5e7254;
+  background: #092a60;
   display: none;
 }
 
